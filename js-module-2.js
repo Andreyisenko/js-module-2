@@ -213,8 +213,40 @@
 //   console.log(counter);
 //   counter++;
 // }
-const caunter = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
-// console.log(caunter);
-for (let index = 0; index < caunter.length; index++) {
-  console.log(`${index + 1}: ${caunter[index]}`);
+// console.log(1);
+
+// console.log(foo([1, 2, 3, 4, 5, 4]));
+
+// function foo(params) {
+//   let sum = 0;
+//   for (const element of params) {
+//     console.log((sum += element));
+//   }
+//   return sum;
+// }
+// console.log(foo([1, 2, 3, 4, 5, 4]));
+
+// const book = {
+//   title: 'The Last Kingdom',
+//   author: 'Bernard Cornwell',
+//   genres: ['historical prose', 'adventure'],
+//   rating: 8.38,
+// };
+
+// for (const key in book) {
+//   console.log(key); // Ключ
+//   console.log(book[key]); // Ключ
+//   //   console.log(book[key]); // Значення властивості з таким ключем
+// }
+// console.log(null ?? 4);
+
+function foo(params) {
+  console.log(arguments);
+  // console.log(arguments.length);
+  const arg = Array.from(arguments);
+
+  console.log(Array.isArray(arg));
+  return arg;
 }
+
+console.log(foo(1, 2, 3, 4, 5, 6));
