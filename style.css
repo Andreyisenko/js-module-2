@@ -1,0 +1,11 @@
+.title {
+  background-color: aqua;
+  color: red;
+  height: 50px;
+  border-radius: 20px;
+  margin: 0;
+  padding: 10px;
+}
+body {
+  background-color: green;
+}
