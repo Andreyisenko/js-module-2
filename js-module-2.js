@@ -240,13 +240,13 @@
 // }
 // console.log(null ?? 4);
 
-function foo(params) {
-  console.log(arguments);
-  // console.log(arguments.length);
-  const arg = Array.from(arguments);
+// function foo(params) {
+//   console.log(arguments);
+//   // console.log(arguments.length);
+//   const arg = Array.from(arguments);
 
-  console.log(Array.isArray(arg));
-  return arg;
-}
+//   console.log(Array.isArray(arg));
+//   return arg;
+// }
 
-console.log(foo(1, 2, 3, 4, 5, 6));
+// console.log(foo(1, 2, 3, 4, 5, 6));
