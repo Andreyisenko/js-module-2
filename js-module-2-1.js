@@ -32,17 +32,25 @@
 // console.log(arr2);
 // console.log(arr);
 
-const playList = {
-  name: 'Bob',
-  rating: 4,
-  isFavorite: true,
-  tracks: ['tracks-1', 'tracks-2', 'tracks-3'],
-};
-playList.name = 'Didi';
-playList.fulMane = 'Bob Marly';
+// const playList = {
+//   name: 'Bob',
+//   rating: 4,
+//   isFavorite: true,
+//   tracks: ['tracks-1', 'tracks-2', 'tracks-3'],
+// };
+// playList.name = 'Didi';
+// playList.fulMane = 'Bob Marly';
 // console.log(playList);
 // console.log(playList.fulMane);
 // console.log(playList.fulMane);
 // console.log(playList.tracks[1]);
-console.log(playList);
-console.dir(playList);
+// console.log(playList);
+// console.dir(playList);
+const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+const newArr = [];
+// console.log(arr);
+for (const element of arr) {
+  console.log(element);
+  newArr.push(element + 10);
+}
+console.log(newArr);
