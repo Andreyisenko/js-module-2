@@ -46,11 +46,54 @@
 // console.log(playList.tracks[1]);
 // console.log(playList);
 // console.dir(playList);
-const arr = [1, 2, 3, 4, 5, 6, 7, 8];
-const newArr = [];
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// const strArr = ['a', 'b', 'c', 'd', 5, 6, 7, 8];
+// const newArr = [];
+// // console.log(arr);
+// for (const element of arr) {
+//   console.log(element);
+//   newArr.push(element + 10);
+// // }
+// const strD = 'a b d d dcs jds  nls nskl d s';
 // console.log(arr);
-for (const element of arr) {
-  console.log(element);
-  newArr.push(element + 10);
-}
-console.log(newArr);
+// console.log(strD);
+// console.log(strArr);
+// // for (const element of strArr) {
+// //   console.log(typeof element);
+// // }
+// // console.log(strArr[strArr.length - 1]);
+// const sum = strArr.concat(arr);
+// console.log(sum);
+// // console.log(Array.isArray(sum));
+// // console.log(Array.isArray(Array.from(strD)));
+// const newArr = strD.split(' ');
+// console.log(newArr);
+// const nevS = newArr.join(' ');
+// console.log((nevS);
+// const foo = () => {
+//   return {
+//     a: 2,
+//     d: 3,
+//   };
+// };
+
+// console.log(foo());
+
+const fruits = [
+  'apple',
+  'banana',
+  'cherry',
+  'orange',
+  'kiwi',
+  'grape',
+  'pear',
+  'mango',
+  'melon',
+  'plum',
+];
+const newFrut = fruits.map(frut => {
+  return `meny ${frut}`;
+});
+
+// console.log(fruits);
+// console.log(newFrut);
