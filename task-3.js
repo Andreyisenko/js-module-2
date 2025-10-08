@@ -46,8 +46,8 @@
 // // console.log(sum.toFixed(1));
 // console.log([][1]);
 
-const arr = new Array(15);
-console.log(arr);
+// const arr = new Array(15);
+// console.log(arr);
 // console.log(arr.length); //
 // const arre = [
 //   undefined,
