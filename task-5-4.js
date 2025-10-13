@@ -38,13 +38,13 @@ const authors = [
     ],
   },
 ];
-console.log(authors);
+// console.log(authors);
 const allBook = authors.flatMap(elem => elem.books);
-console.log(allBook);
+// console.log(allBook);
 const uniqGenre = [...new Set(allBook.map(elem => elem.genre))];
-console.log(uniqGenre);
+// console.log(uniqGenre);
 const allPage = allBook.reduce((acc, elem) => acc + elem.pages, 0);
-console.log(allPage);
+// console.log(allPage);
 const midleRating =
   allBook.reduce((acc, elem) => acc + elem.rating, 0) / allBook.length;
 console.log(midleRating.toFixed(2));
