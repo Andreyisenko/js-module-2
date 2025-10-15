@@ -47,4 +47,4 @@ const allPage = allBook.reduce((acc, elem) => acc + elem.pages, 0);
 // console.log(allPage);
 const midleRating =
   allBook.reduce((acc, elem) => acc + elem.rating, 0) / allBook.length;
-console.log(midleRating.toFixed(2));
+// console.log(midleRating.toFixed(2));
